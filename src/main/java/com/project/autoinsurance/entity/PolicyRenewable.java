@@ -1,6 +1,5 @@
 package com.project.autoinsurance.entity;
 
-import com.project.autoinsurance.models.Policy;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;

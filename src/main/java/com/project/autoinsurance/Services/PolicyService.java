@@ -1,10 +1,9 @@
 package com.project.autoinsurance.Services;
 
-import com.project.autoinsurance.models.Policy;
+import com.project.autoinsurance.entity.Policy;
 import com.project.autoinsurance.Repository.PolicyRepo;
+import com.project.autoinsurance.entity.Vehicle;
 import org.springframework.stereotype.Service;
-
-import java.util.Optional;
 
 @Service
 public class PolicyService {
@@ -19,17 +18,20 @@ public class PolicyService {
     public Policy createPolicy(Policy policy){
         return policyRepo.save(policy);
     }
+//
     public Policy renewPolicy(Policy policy){
-        Optional<Policy> isPolicy = policyRepo.findById(policy.getId());
-        if (isPolicy.isPresent()){
-            Policy newPolicy = isPolicy.get();
-            newPolicy.setType(policy.getType());
-            newPolicy.setCoverage(policy.getCoverage());
-            newPolicy.setBill(policy.getBill());
-            policyRepo.save(newPolicy);
-            return newPolicy;
 
-        }
-        else return null;
     }
+
+    public Policy addVehicle(Vehicle vehicle){
+        Policy vehicle = policyRepo.f
+
+    }
+
+    public Policy removeVehicle(Vehicle vehicle){
+
+
+    }
+
+
 }

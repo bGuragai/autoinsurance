@@ -1,4 +1,4 @@
-package com.project.autoinsurance.models;
+package com.project.autoinsurance.entity;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;

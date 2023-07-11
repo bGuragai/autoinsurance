@@ -1,6 +1,6 @@
 package com.project.autoinsurance.Repository;
 
-import com.project.autoinsurance.models.Policy;
+import com.project.autoinsurance.entity.Policy;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
