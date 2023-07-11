@@ -1,5 +1,7 @@
 package com.project.autoinsurance.Services;
 
+import com.project.autoinsurance.entity.Bill;
+import com.project.autoinsurance.entity.Payment;
 import com.project.autoinsurance.entity.Policy;
 import com.project.autoinsurance.Repository.PolicyRepo;
 import com.project.autoinsurance.entity.Vehicle;
@@ -24,7 +26,7 @@ public class PolicyService {
     }
 
     public Policy addVehicle(Vehicle vehicle){
-        Policy vehicle = policyRepo.f
+
 
     }
 
@@ -32,6 +34,15 @@ public class PolicyService {
 
 
     }
+    public Policy bill(Bill bill){
+
+    }
+
+    public Policy Payment(Payment payment){
+
+    }
+
+
 
 
 }
