@@ -1,15 +1,12 @@
 package com.project.autoinsurance.Repository;
 
+import com.project.autoinsurance.entity.Bill;
+
 import com.project.autoinsurance.entity.Policy;
 import org.springframework.data.repository.CrudRepository;
-import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
-@Repository
-public interface PolicyRepo extends CrudRepository<Policy,Long>{
-    List<Policy> findAll();
-
-
+public interface BillRepo extends CrudRepository<Bill,Long> {
+    List<Bill> findAll();
 }
-

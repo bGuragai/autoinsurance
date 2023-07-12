@@ -16,31 +16,13 @@ public class PolicyService {
         this.policyRepo = policyRepo;
     }
 
-
     public Policy createPolicy(Policy policy){
         return policyRepo.save(policy);
     }
+
+//    public Policy renewPolicy(Policy policy){
 //
-    public Policy renewPolicy(Policy policy){
-
-    }
-
-    public Policy addVehicle(Vehicle vehicle){
-
-
-    }
-
-    public Policy removeVehicle(Vehicle vehicle){
-
-
-    }
-    public Policy bill(Bill bill){
-
-    }
-
-    public Policy Payment(Payment payment){
-
-    }
+//    }
 
 
 
